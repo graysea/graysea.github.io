@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #C04848; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #C04848 , #480048); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #C04848 , #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	}
+	
+h1 {
+	text-align:center;
+	color: #ECE9E6; /* fallback for old browsers */
+	color: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+		}
+
+h2 {color: #EC6F66}
+
+h3 {color: #F3A183;}
+		
+p {color: #136a8a;}
+
+#theory {color: #000;
+	background: #abbaab; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+#models {background: #ECE9E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	}
+	
+#psychology {
+	background: #70e1f5; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #70e1f5 , #ffd194); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #70e1f5 , #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	}
+        
