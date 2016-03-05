@@ -6,6 +6,7 @@ body {
 	background: -webkit-linear-gradient(to top, #C04848 , #480048); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #C04848 , #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	margin: 10%;
 	}
 	
 h1 {
@@ -16,11 +17,14 @@ h1 {
         ;
 		}
 
-h2 {color: #EC6F66}
+h2 {color: #EC6F66;}
 
 h3 {color: #F3A183;}
 		
 p {color: #136a8a;}
+
+section {
+	padding: 100px;}
 
 #theory {color: #000;
 	background: #abbaab; /* fallback for old browsers */

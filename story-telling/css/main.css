@@ -1,5 +1,9 @@
 /* CSS Document */
 
+header {
+	align: center;
+	}
+
 body {
 	background: url('') no-repeat center center fixed;
 	background-size: cover;
@@ -15,14 +19,15 @@ h1 {
 	border: 1px solid white;
 }
 
-p {position: absolute;
-	bottom: 45%;
-	left: 25%;
+p {position: relative;
+	align: center center;
 	width: 50%;
 	text-align: center;
 	text-wrap: normal
 	}
 
+a {
+	animation: ease-in-out;}
 
 a a:link {
 	color: black;
