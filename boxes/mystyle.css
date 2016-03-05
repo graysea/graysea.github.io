@@ -1,0 +1,37 @@
+/* CSS Document */
+
+body {
+	margin: 10%;
+}
+
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+
+.one {
+	margin: 0px 100px;
+	background: #BBF7D7;
+	}
+	
+.two {
+	padding: 100px;
+	background: #7ED2C5;
+	}
+	
+.three {
+	border: 6px outset #3A928F;
+	background: #7ABFC1;
+	}	
+	
+.four, .five {
+	width: 49%;
+	float: left;
+	padding-right: 1%;
+	border: none;
+	background: #7BBDCD;
+	}
+	
+.five {
+	background: #87B2D1;
+	}
+	
