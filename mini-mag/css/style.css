@@ -1,3 +1,8 @@
+img {
+	max-width: 100%;
+	min-width: 100%;
+	}
+
  /* navigation styles */
  
  nav {  
@@ -157,7 +162,16 @@ p {
 	font-family: 'Oxygen', sans-serif;
 }
 
+li {
+	font size: .75em;
+	font-family: 'Oxygen', sans-serif;
+	}
+
 #main {
-  padding: 5em;
+ padding-top: 2em;
   line-height: 1.7em;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
 }
+
