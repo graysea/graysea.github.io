@@ -154,8 +154,27 @@ h2 {
 	font-size: 1.5em;
 	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
-  padding: 1em 0;
+  	padding: 1em 0;
 }
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	}
+	
+h4 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	}
+
+p source {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	font-size: 1em; 
+	}
 
 p {
 	font size: .75em;
@@ -188,6 +207,11 @@ li {
 #main li a:active a:hover {
 	color: #0B6E76;
 	text-decoration: none;
+	}
+	
+p figure figurecaption {
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
 	}
 	
 
