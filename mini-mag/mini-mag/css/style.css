@@ -1,0 +1,353 @@
+img {
+	max-width: 100%;
+	min-width: 100%;
+	}
+
+  header img {
+  max-width: 50%;
+  min-width: 50%;
+  padding: 1em 0;
+}
+
+ /* navigation styles */
+ 
+ nav {  
+      height: 40px;  
+      width: 100%;  
+      background: #0B6E76;  
+      font-size: 11pt;  
+      font-family: Arial, sans-serif;  
+      font-weight: bold;  
+      position: relative;  
+  }  
+
+    nav ul {  
+        display: none;  
+        height: auto;
+		background: #0B6E76;
+		border-top: 1px solid #fff;   
+    }  
+
+    nav li {
+        display: block;
+        float: none;
+		background: #0B6E76;  
+    }
+	
+	/* remove the RGS default margins on the nav only*/
+	nav .col {
+		margin: 0;
+		}
+	
+	 nav li a {
+		padding-left: 20px; 
+        border-bottom: 1px solid #fff;
+    }
+
+    nav a#pull {  
+        display: block;  
+        background-color: #0B6E76; 
+        width: 100%;  
+        position: relative;  
+    } 
+	
+	/*add the fontawesome menu icon using CSS content property */ 
+    nav a#pull:after {  
+        content: "\f0c9";
+        font-family: FontAwesome;
+        width: 64px;  
+        height: 64px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 20px;  
+        top: 0px;  
+    } 
+
+nav a {  
+  color: #fff;  
+  display: block;  
+  width: 100%;  
+  text-align: center;  
+  text-decoration: none;  
+  line-height: 40px;  
+  /*text-shadow: 1px 1px 0px #000;*/
+}
+
+nav li a {  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+
+nav a:hover, nav a:active {  
+    background-color: #fff; 
+	color: #000; 
+	text-shadow: none;
+}
+  
+/* header styles */
+header, #banner {
+	background: #f2f2f2;
+	text-align: center;
+}
+
+.col {
+	background: #;
+}
+
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#banner img {
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#slideshow {
+    position:relative;
+    width: 100%;
+   height: 100%;
+   padding-bottom: 39%;
+  
+  }
+
+#slideshow div {
+   position:absolute;
+   	width: 100%;
+	height: 100%;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    background-color: #FFF;
+}
+
+#slideshow div.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow div.last-active {
+    z-index:9;
+}
+
+#slideshow div img {
+    max-width: 100%;
+	min-width: 100%;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+
+/* type styles */ 	
+/*font-family: 'Libre Baskerville', serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Oxygen', sans-serif;*/
+
+h1 {
+	font-size: 3em;
+	padding: 1em 0;
+	font-family:  'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+}
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	}
+	
+h4 {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	}
+
+p source {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+  	padding: 1em 0;
+	font-size: 1em; 
+	}
+
+p {
+	font size: .75em;
+	font-family: 'Oxygen', sans-serif;
+}
+
+li {
+	font size: .75em;
+	font-family: 'Oxygen', sans-serif;
+	}
+
+#main {
+ padding-top: 2em;
+  line-height: 1.7em;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#main li a a:visited {
+	color: #000;
+	text-decoration: underline;
+	}
+	
+#main a {
+	color: #000;
+	text-decoration: underline;
+	}
+	
+#main li a:active a:hover {
+	color: #0B6E76;
+	text-decoration: none;
+	}
+	
+p figure figurecaption {
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
+	}
+	
+
+/* Text over image over
+
+	Included color classes.. 
+	.red 
+	.blue 
+	.yellow 
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1104 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  /*margin: 5% 1%;*/
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1104 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.snip1104 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+
+figure.snip1104 figcaption {
+  position: absolute;
+  top:;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1104 h2 {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 3em 1em;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1104 h2 span {
+  font-weight: 800;
+}
+
+figure.snip1104:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.snip1104 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.snip1104.blue {
+  background: #123851;
+}
+
+figure.snip1104.blue h2 {
+  background: #0a212f;
+}
+
+figure.snip1104.red {
+  background: #581a14;
+}
+
+figure.snip1104.red h2 {
+  background: #36100c;
+}
+
+figure.snip1104.yellow {
+  background: #7f5006;
+}
+
+figure.snip1104.yellow h2 {
+  background: #583804;
+}
+
+figure.snip1104:hover img,
+figure.snip1104.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
